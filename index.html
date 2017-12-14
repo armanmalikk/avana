@@ -6,6 +6,7 @@
      <link href="style/style.css" rel="stylesheet" >
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+     <link href="style/Ampera.ttf" >
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
      <script src="js/main.js"></script>
@@ -93,18 +94,17 @@
                          </div><!--- Feature Images -->
                          <div class="col-sm-4" id="feature-text-part">
                               <p id="feature-text">Feature</p>
-                              <p id="feature-text2">S</p>
                               <table id="feature-table">
                                 <tr>
-                                  <td><i class="fa fa-globe fa-1x" aria-hidden="true"></i></td>
+                                  <td><i class="fa fa-globe fa-2x" aria-hidden="true" id="icon1"></i></td>
                                   <td><strong>FindEvent</strong> is an application that can search for an ongoing activity will take place.</td>
                                 </tr>
                                 <tr>
-                                  <td><i class="fa fa-eye fa-1x" aria-hidden="true"></i></td>
+                                  <td><i class="fa fa-eye fa-2x" aria-hidden="true" id="icon2"></i></td>
                                   <td><strong>FindEvent</strong> is an application that can search for an ongoing activity will take place.</td>
                                 </tr>
                                 <tr>
-                                  <td><i class="fa fa-briefcase fa-1x" aria-hidden="true"></i></td>
+                                  <td><i class="fa fa-briefcase fa-2x" aria-hidden="true" id="icon3"></i></td>
                                   <td><strong>FindEvent</strong> is an application that can search for an ongoing activity will take place.</td>
                                 </tr>
                               </table>
@@ -145,7 +145,7 @@
              <div class="container">
                <div class="row">
                     <div class="col-sm-12">
-                         <div class="col-sm-7">
+                         <div class="col-sm-5 col-sm-offset-2" id="work-part">
                               <p id="work-title">How it Works</p>
                               <p id="work-article"><strong>Eventzilla</strong> lets you sell tickets online and manage attendees from one integrated application. No downloads, set up fees, or monthly fees. Give Eventzilla a try today or lower your ticket sales,set up fees, or monthly fees.
                               </p>
@@ -156,7 +156,7 @@
                          </div>
                          <div class="col-sm-5">
                              <div class="videoContainer hide-for-small-only">
-                                 <div class="overlay"></div>
+                                 <div class="overlay" id="overlayid"></div>
                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
                               </div>
                          </div>
@@ -165,15 +165,18 @@
              </div>
         </section><!--- Work -->
         <section id="people-say">
-          <div class="container">
+          <div class="container-fluid">
             <div class="row">
-              <p id="people-title">What People Says</p>
+              <hr class="style-eight"></hr>
+              <p id="people-title"></p>
               <div class="col-sm-12">
                  <div class="col-sm-2">
                  </div>
                 <div class="col-sm-4">
                   <div id="people-comment">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <br>
+                        <p id="person-name">Md Hanid, CEO</p>
                    </div>
                 </div>
                 <div class="col-sm-2">
@@ -182,6 +185,8 @@
                 <div class="col-sm-4">
                   <div id="people-comment1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <br>
+                        <p id="person-name">Angga Risky, Host</p>
                    </div>
                 </div>
                 <div class="col-sm-2">
@@ -192,11 +197,15 @@
               <div class="col-sm-6">
                 <div id="people-comment-second">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <br>
+                        <p id="person-name">Setiawan, Speaker</p>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div id="people-comment-second1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
                         eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <br>
+                        <p id="person-name">Sheikh Himal, Speaker</p>
                 </div>
               </div>  
             </div>
