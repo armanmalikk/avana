@@ -47,7 +47,7 @@ $(document).ready(function(){
     $("i.fa.fa-globe.fa-2x").css({"background": "#fe2851","color": "#fff"});
     },
     function(){
-    $("i.fa.fa-globe.fa-2x").css({"background-image" : "linear-gradient(to bottom, #ffffff, #f1f5f8)","color":"#a9a3a3"});
+    $("i.fa.fa-globe.fa-2x").css({"background-image" : "linear-gradient(to bottom, #ffffff, #f1f5f8)","color":"#fe2851"});
     });
 
     /*******Hover Icon2********/  
@@ -63,6 +63,6 @@ $(document).ready(function(){
     $("i.fa.fa-briefcase.fa-2x").css({"background": "#fe2851","color": "#fff"});
     },
     function(){
-    $("i.fa.fa-briefcase.fa-2x").css({"background-image" : "linear-gradient(to bottom, #ffffff, #f1f5f8)","color":"#a9a3a3"});
+    $("i.fa.fa-briefcase.fa-2x").css({"background-image" : "linear-gradient(to bottom, #ffffff, #f1f5f8)","color":"#fe2851"});
     });
 });
